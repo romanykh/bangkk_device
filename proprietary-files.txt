@@ -320,6 +320,6 @@ vendor/etc/thermal-engine.conf
 
 # Touchscreen firmware
 vendor/firmware/csot_focal_test_limits.ini
-vendor/firmware/focaltech-csot-ft3681-26-0000-bangkk.bin
+vendor/firmware/focaltech-csot-ft3681-26-0000-bangkk.bin:vendor/firmware/focaltech_ts_fw_csot.bin
 vendor/firmware/goodix-tm-gt9916S-23062705-649a9b6c-bangkk.bin
 vendor/firmware/tm_goodix_cfg_group.bin
