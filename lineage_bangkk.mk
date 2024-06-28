@@ -8,21 +8,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from dubai device
-$(call inherit-product, device/motorola/dubai/device.mk)
+# Inherit from bangkk device
+$(call inherit-product, device/motorola/bangkk/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_dubai
-PRODUCT_DEVICE := dubai
+PRODUCT_NAME := lineage_bangkk
+PRODUCT_DEVICE := bangkk
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := motorola edge 30
+PRODUCT_MODEL := moto g84 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="dubai_g-user 14 U1RDS34.80-40-5-3 b1f71-ff67e release-keys" \
-    BuildFingerprint=motorola/dubai_g/dubai:14/U1RDS34.80-40-5-3/b1f71-ff67e:user/release-keys \
-    DeviceProduct=dubai_g
+    BuildDesc="bangkk_g-user 14 U1TCS34.22-64-19-4-3 eae476-b2a7b2 release-keys MUR1-0.90" \
+    BuildFingerprint=motorola/bangkk_g/bangkk:14/U1TCS34.22-64-19-4-3/eae476-b2a7b2:user/release-keys \
+    DeviceProduct=bangkk_g
