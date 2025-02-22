@@ -11,10 +11,6 @@ include device/motorola/sm6375-common/BoardConfigCommon.mk
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := bangkk
 
-# Fingerprint
-TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.bangkk
-SOONG_CONFIG_qtidisplay_udfps := true
-
 # HIDL
 ODM_MANIFEST_SKUS += b d de dn n
 ODM_MANIFEST_B_FILES := $(DEVICE_PATH)/sku/manifest_b.xml
