@@ -15,9 +15,6 @@ TARGET_BOOTLOADER_BOARD_NAME := bangkk
 TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.bangkk
 SOONG_CONFIG_qtidisplay_udfps := true
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=bangkk
 TARGET_KERNEL_CONFIG += vendor/lineage_bangkk.config
