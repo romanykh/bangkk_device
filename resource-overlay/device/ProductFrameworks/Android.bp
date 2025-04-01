@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "ProductFrameworksResBangkk",
+    name: "ProductFrameworksResDevice",
     product_specific: true,
 }

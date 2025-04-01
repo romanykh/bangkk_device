@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "WifiResBangkk",
+    name: "WifiResDevice",
     vendor: true,
 }
