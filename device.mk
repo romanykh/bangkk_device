@@ -95,6 +95,10 @@ PRODUCT_COPY_FILES += \
 $(foreach DEVICE_SKU, $(NFC_DEVICE_SKUS), \
     $(LOCAL_PATH)/permissions/unavail.android.hardware.se.omapi.ese.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_$(DEVICE_SKU)/unavail.android.hardware.se.omapi.ese.xml)
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.bangkk
