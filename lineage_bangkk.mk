@@ -45,3 +45,6 @@ WITH_QS := true
 
 # Disable/enable blur support, false by default
 TARGET_ENABLE_BLUR := true
+
+#Go Official
+MATRIXX_BUILD_TYPE := Official
